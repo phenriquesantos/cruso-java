@@ -32,15 +32,15 @@ public class Console {
 		System.out.print("Digite o seu nome: ");
 		String nome = entrada.nextLine();
 		
-		System.out.print("Digite o seu nome: ");
+		System.out.print("Digite o seu sobrenome: ");
 		String sobrenome = entrada.nextLine();
 		
 		// Pra pegar int tem que pssar o nextInt existem funções para pegar os outros tipos
 		// OBS: N sei pq saporra n converte na hora de pegar igual outras linguagens
-		System.out.print("Digite o seu nome: ");
+		System.out.print("Digite a sua idade: ");
 		int idade = entrada.nextInt();
 		
-		System.out.printf("Nome = %s %s tem %d anos.", 
+		System.out.printf("%s %s tem %d anos.", 
 				nome, sobrenome, idade);
 
 		// Scanner precisa ser fechado
